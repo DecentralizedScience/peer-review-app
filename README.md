@@ -85,12 +85,12 @@ And fill the appropiate fields with your config. Use the default config URI in t
 
 Check if mongo is running. Note the service name vary as mongo/mongod/mongodb.
 ```
-service mongodb status
+service mongod status
 ```
 
 Run mongodb if not running by:
 ```
-sudo service mongodb start
+sudo service mongod start
 ```
 
 ### Publons auth
